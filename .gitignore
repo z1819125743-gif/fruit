@@ -1,2 +1,9 @@
+# Ignore packaged or virtualenv files
 fruit_project.zip
-fruit_project/
+# keep dataset under fruit_project/data but ignore virtualenvs
+fruit_project/.venv/
+.venv/
+venv/
+# Python cache
+__pycache__/
+*.pyc
